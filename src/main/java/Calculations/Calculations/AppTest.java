@@ -10,4 +10,9 @@ public class AppTest {
 	public void test(){
 		assertEquals(true, true);
 	}
+	
+	@Test
+	public void test_wrong(){
+		assertEquals(true, false);
+	}
 }
