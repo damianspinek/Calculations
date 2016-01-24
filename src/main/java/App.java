@@ -1,17 +1,1 @@
-package Calculations.Calculations;
-
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
-    
-    public static void Hello(){
-    	System.out.println("hello");
-    }
-}
+public class App{     public static int plus(int a, int b){return a+b;}     public static int minus(int a, int b){return a-b;}     public static int divide(int a, int b){return a/b;}     public static int multiple(int a, int b){return a*b;} }
