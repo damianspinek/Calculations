@@ -1,5 +1,5 @@
 jdk:
  - openjdk7
-script: mvn verify
+script: mvn install verify test
 after_success:
 after_failure:
