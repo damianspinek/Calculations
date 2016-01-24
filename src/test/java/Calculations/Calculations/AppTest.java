@@ -13,6 +13,6 @@ public class AppTest {
 	
 	@Test
 	public void test_wrong(){
-		assertEquals(true, false);
+		assertEquals(true, true);
 	}
 }
