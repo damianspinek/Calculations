@@ -1,5 +1,6 @@
 jdk:
  - openjdk7
 script: mvn install verify test
-after_success:
-after_failure:
+notifications:
+  email:
+    - damian00737@wp.pl
